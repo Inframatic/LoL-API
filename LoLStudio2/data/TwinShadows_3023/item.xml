@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3023</id>
+  <name>Twin Shadows</name>
+  <description> +50 Ability Power +30 Magic Resistance +5% Movement Speed UNIQUE Active - Hunt: Summons up to 2 invulnerable ghosts for 6 seconds to seek the two nearest enemy champions. If they touch an enemy champion, they slow his Movement Speed by 40% and reveal him for 2.5 seconds - 120 second cooldown.</description>
+  <iconPath>3023_Wraith_Collar.png</iconPath>
+  <price>735</price>
+  <flatHPPoolMod>0</flatHPPoolMod>
+  <flatMPPoolMod>0</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>0</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>0</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>0</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>50</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0.05</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>30</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>2</epicness>
+  <date>20121205023807</date>
+  <recipesInto />
+  <recipesFrom>
+    <Recipe>
+      <recipeItemId>3098</recipeItemId>
+      <buildsToItemId>3023</buildsToItemId>
+    </Recipe>
+    <Recipe>
+      <recipeItemId>1033</recipeItemId>
+      <buildsToItemId>3023</buildsToItemId>
+    </Recipe>
+  </recipesFrom>
+  <categories>
+    <Category>
+      <name>spell_block</name>
+    </Category>
+    <Category>
+      <name>spell_damage</name>
+    </Category>
+    <Category>
+      <name>movement</name>
+    </Category>
+    <Category>
+      <name>nonboots_movement</name>
+    </Category>
+    <Category>
+      <name>slow</name>
+    </Category>
+    <Category>
+      <name>active</name>
+    </Category>
+  </categories>
+</Item>

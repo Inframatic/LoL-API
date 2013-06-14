@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>106</id>
+  <name>Volibear</name>
+  <displayName>Volibear</displayName>
+  <title>the Thunder's Roar</title>
+  <iconPath>Volibear_Square_0.png</iconPath>
+  <portraitPath>Volibear_0.jpg</portraitPath>
+  <tags>tank,fighter,jungler,melee</tags>
+  <description>Though the northern reaches of Freljord are some of the most unforgiving lands in Valoran, the Ursine have survived upon the region's barren, stormy tundra for centuries. As a fierce and respected warrior of the Ursine, Volibear devoted his life to the protection of his people and loyalty to his elder brother, the tribe's chief. When his brother was killed during a hunt on the tundra, the tribe looked to Volibear as his successor. It was an honor and a burden that Volibear had never expected, but he shouldered the charge with pride. However, by Ursine tradition, the tribe could not recognize Volibear as chief until he returned from a journey to the peak of their sacred mountain, a place forever shrouded in a thundering maelstrom. There, Ursine chieftains must speak to the storm itself, gaining clarity and wisdom to empower them as mighty leaders. Donning the chieftain's traditional armor and enchanted gauntlets, Volibear began the long and perilous climb up the slopes of the mountain. When he reached the peak and gazed into the raging storm above, he saw a horrific vision of a Freljord utterly consumed by war. Amidst the carnage, the Ursine fell dead upon a bloody battlefield. Believing the vision to be an omen of things to come if he did not act against them, Volibear traveled to the capitol of Freljord. The Ursine had not ventured across the southern mountains in centuries and his appearance was met with unease. However, Queen Ashe recognized Volibear as a wise and powerful ally. In what Volibear considered the first step against a war-torn future, they forged an alliance. As part of their agreement, he joined the League of Legends in the name of a unified Freljord, representing the primal might of his nation on the Field of Justice.</description>
+  <quote>Few can weather the storm that follows in the wake of Volibear's roar.</quote>
+  <quoteAuthor>Ashe, the Frost Archer</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>345</moveSpeed>
+  <armorBase>16.5</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>220</manaBase>
+  <manaLevel>30</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.4</manaRegenBase>
+  <manaRegenLevel>0.13</manaRegenLevel>
+  <healthRegenBase>1.4</healthRegenBase>
+  <healthRegenLevel>0.13</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>440</healthBase>
+  <healthLevel>86</healthLevel>
+  <attackBase>54</attackBase>
+  <attackLevel>3.3</attackLevel>
+  <ratingDefense>7</ratingDefense>
+  <ratingMagic>4</ratingMagic>
+  <ratingDifficulty>4</ratingDifficulty>
+  <ratingAttack>6</ratingAttack>
+  <tips>*Lead the charge with Rolling Thunder and slow enemies with Majestic Roar.*Volibear benefits a great deal from additional health and cooldown reduction.*You must attack three times in rapid succession before Frenzy can be activated--having the toughness to survive for a long time is one way to accomplish this goal.</tips>
+  <opponentTips>*Volibear can gain great movement speed while chasing targets, but he gains much less of a bonus when running away.*Volibear regenerates a large amount of health when he drops to critical health.*Slowing or stunning Volibear when he tries to charge will greatly reduce his effectiveness.</opponentTips>
+  <date>20121205023807</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Chosen of the Storm</name>
+      <iconPath>VolibearPassive.png</iconPath>
+      <range>0</range>
+      <description>Volibear heals rapidly for a few seconds when his health drops to a critical level.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Rolling Thunder</name>
+      <cost>40/40/40/40/40 Mana</cost>
+      <cooldown>12/11/10/9/8</cooldown>
+      <iconPath>VolibearQ.png</iconPath>
+      <range>0</range>
+      <effect>Volibear drops to all fours to hunt his enemies, gaining 15/15/15/15/15% Movement Speed for 4/4/4/4/4 seconds. This bonus increases to 45/45/45/45/45% Movement Speed while moving toward enemy champions. Volibear's next attack during this time deals an additional 30/60/90/120/150 physical damage and flings the target behind him.</effect>
+      <description>Volibear drops to all fours and runs faster. This bonus speed increases when chasing enemy champions. The first enemy he attacks is thrown backwards over Volibear.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Frenzy</name>
+      <cost>35/35/35/35/35 Mana</cost>
+      <cooldown>18/18/18/18/18</cooldown>
+      <iconPath>VolibearW.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Volibear gains 8/11/14/17/20% Attack Speed with each attack. Stacks up to 3/3/3/3/3 times. Active: When Volibear has 3/3/3/3/3 stacks of Frenzy, he can bite an enemy to deal 80/125/170/215/260 (+ [15/15/15/15/15% of bonus Health]) physical damage, increased by 1/1/1/1/1% for each 1/1/1/1/1% health the target is missing.</effect>
+      <description>Volibear's repeated attacks grant him additional Attack Speed. Once Volibear has repeatedly attacked three times, he can perform a vicious bite on his target which deals increased damage based on the target's missing health.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Majestic Roar</name>
+      <cost>60/65/70/75/80 Mana</cost>
+      <cooldown>11/11/11/11/11</cooldown>
+      <iconPath>VolibearE.png</iconPath>
+      <range>0</range>
+      <effect>Volibear deals 60/105/150/195/240 (+0.6) magic damage to nearby enemies and slows them by 30/35/40/45/50% for 3/3/3/3/3 seconds. Minions and monsters are feared as well.</effect>
+      <description>Volibear lets out a powerful roar that damages and slows enemies. Minions and monsters are feared as well.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Thunder Claws</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>100/90/80</cooldown>
+      <iconPath>VolibearR.png</iconPath>
+      <range>0</range>
+      <effect>Volibear channels the storm, causing all basic attacks for 12/12/12 seconds to deal 75/115/155 (+0.3) magic damage, which chains to 4/4/4 nearby enemies.</effect>
+      <description>Volibear channels the power of the storm causing his attacks to blast his targets with lightning that bounces to other nearby enemies.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3067</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3083</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3186</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3184</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3132</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3069</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3083</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

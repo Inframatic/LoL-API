@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3056</id>
+  <name>Ohmwrecker</name>
+  <description> +350 Health +300 Mana +55 Armor UNIQUE Active: Prevents the closest enemy tower from attacking for 2.5 seconds - 120 second cooldown. This effect cannot be used against the same tower more than once every 7.5 seconds.</description>
+  <iconPath>3056_Ohmwrecker.png</iconPath>
+  <price>930</price>
+  <flatHPPoolMod>350</flatHPPoolMod>
+  <flatMPPoolMod>300</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>0</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>55</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>0</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>0</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>0</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>0</epicness>
+  <date>20121205023807</date>
+  <recipesInto />
+  <recipesFrom>
+    <Recipe>
+      <recipeItemId>3010</recipeItemId>
+      <buildsToItemId>3056</buildsToItemId>
+    </Recipe>
+    <Recipe>
+      <recipeItemId>1031</recipeItemId>
+      <buildsToItemId>3056</buildsToItemId>
+    </Recipe>
+  </recipesFrom>
+  <categories>
+    <Category>
+      <name>health</name>
+    </Category>
+    <Category>
+      <name>armor</name>
+    </Category>
+    <Category>
+      <name>mana</name>
+    </Category>
+    <Category>
+      <name>active</name>
+    </Category>
+  </categories>
+</Item>

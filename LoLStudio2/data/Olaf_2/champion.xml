@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>2</id>
+  <name>Olaf</name>
+  <displayName>Olaf</displayName>
+  <title>the Berserker</title>
+  <iconPath>Olaf_Square_0.png</iconPath>
+  <portraitPath>Olaf_0.jpg</portraitPath>
+  <tags>fighter,melee</tags>
+  <description>On an uncharted continent beyond Valoran's grasping clutches, the conqueror named Olaf was born to a long tradition of soldiers unlike most others. Berserkers, as they tout themselves, are warriors who channel fury deep from their cores, unleashing pure and savage wrath upon their enemies. This fearsome evolution is a product of their unforgiving home, Lokfar - a barren tundra where all creatures must vie bitterly for every resource. Olaf belonged to a seafaring clan known for ruthlessly pillaging any and all villages within reach of their dragon-crested longboats. The last time he saw his icy home, Olaf was embarking on an expedition to pioneer and plunder a distant land known only to legend. However, while underway, a terrible storm sprung up and Olaf and his crew were thrown to the mercy of a roiling and pitiless sea. His ship destroyed, his crew nowhere to be found, Olaf miraculously washed up untold miles from ''friendly'' waters on the foreign shores of Valoran, south of Demacia. This unfamiliar place stunned and frightened the Berserker, for Lokfar is not privy to such potent magicians. Approaching them, Olaf hoped that they could use their mysterious powers to send him back to his people. A bargain was struck. Olaf would use his awesome prowess as a warrior to serve the unusual wars of Valoran in the League of Legends, and in exchange the sorcerers would find him a way to return. Despite his participation in the League, Olaf knows better than to trust the ''finger wagglers'' that run the Institute of War. He deliberately keeps details of his life and home from them. After all, with enough information, they would most certainly find the Lokfarians and dominate them as they have dominated all of Valoran, keeping both quietly -- and unwittingly -- in their thrall. Beware the war cry of the Berserker. What surges toward you is unyielding, free from the shackles of reason.</description>
+  <quote />
+  <quoteAuthor />
+  <range>125</range>
+  <moveSpeed>350</moveSpeed>
+  <armorBase>17</armorBase>
+  <armorLevel>3</armorLevel>
+  <manaBase>225</manaBase>
+  <manaLevel>45</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.3</manaRegenBase>
+  <manaRegenLevel>0.115</manaRegenLevel>
+  <healthRegenBase>1.4</healthRegenBase>
+  <healthRegenLevel>0.18</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>441</healthBase>
+  <healthLevel>93</healthLevel>
+  <attackBase>54.1</attackBase>
+  <attackLevel>3.5</attackLevel>
+  <ratingDefense>5</ratingDefense>
+  <ratingMagic>3</ratingMagic>
+  <ratingDifficulty>4</ratingDifficulty>
+  <ratingAttack>9</ratingAttack>
+  <tips>*Olaf can combine Berserker Rage, Vicious Strikes, and Ragnarok at low life to become deceptively strong.*After purchasing health items, Olaf deals significant damage while Vicious Strikes is active.</tips>
+  <opponentTips>*Olaf becomes more dangerous the lower life he is. Save your disables to finish him off.*Preventing Olaf from reaching his axe will minimize the amount of harassment he can cause in the laning phase.</opponentTips>
+  <date>20121205023807</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Berserker Rage</name>
+      <iconPath>OlafBerserkerRage.png</iconPath>
+      <range>0</range>
+      <description>For each 1% of health missing, Olaf's attack speed is increased by 1%.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Undertow</name>
+      <cost>55/60/65/70/75 Mana</cost>
+      <cooldown>8/8/8/8/8</cooldown>
+      <iconPath>OlafAxeThrow.png</iconPath>
+      <range>0</range>
+      <effect>Olaf throws an axe to a target location, dealing 80/125/170/215/260 (+) physical damage to units it passes through and slowing them by 24/28/32/36/40% for 2.5 seconds. If Olaf picks up the axe, the ability's cooldown is reduced by 4.5 seconds.</effect>
+      <description>Olaf throws an axe into the ground at a target location, dealing damage to units it passes through and slowing their movement speed. If Olaf picks up the axe, the ability's cooldown is reduced by 4.5 seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Vicious Strikes</name>
+      <cost>40/45/50/55/60 Mana</cost>
+      <cooldown>12/12/12/12/12</cooldown>
+      <iconPath>OlafViciousStrikes.png</iconPath>
+      <range>0</range>
+      <effect>For 6 seconds, Olaf's attack damage is increased by 7/14/21/28/35 (+ [1% of maximum Health]) and he gains 9/12/15/18/21% lifesteal and spell vamp.</effect>
+      <description>Olaf's attack damage is increased, based on his health, and he gains massive lifesteal and spell vamp.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Reckless Swing</name>
+      <cost>0/64/88/112/136 Health</cost>
+      <cooldown>9/8/7/6/5</cooldown>
+      <iconPath>OlafRecklessSwing.png</iconPath>
+      <range>0</range>
+      <effect>Olaf ferociously swings his axes, dealing 100/160/220/280/340 true damage to his target.</effect>
+      <description>Olaf attacks with such force that it deals true damage to his target and himself.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Ragnarok</name>
+      <cost>100/75/50 Mana</cost>
+      <cooldown>100/100/100</cooldown>
+      <iconPath>OlafRagnarok.png</iconPath>
+      <range>0</range>
+      <effect>Active: Removes all disables from Olaf and for the next 6/6/6 seconds he is immune to disables and has +30/45/60 Armor and Magic Resist. Passive: Olaf has +10/20/30 Armor Penetration.</effect>
+      <description>Olaf is immune to disables and takes reduced damage. </description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3142</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3022</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3005</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3050</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3184</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3022</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3142</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3022</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3083</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3005</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3050</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>20</id>
+  <name>Nunu</name>
+  <displayName>Nunu</displayName>
+  <title>the Yeti Rider</title>
+  <iconPath>Nunu_Square_0.png</iconPath>
+  <portraitPath>Nunu_0.jpg</portraitPath>
+  <tags>fighter,melee,jungler,recommended</tags>
+  <description>Freljord is an unforgiving land covered in snow and ice. Travel, especially in the winter, can be very dangerous. The elements often claim even those who have spent their entire lives there. The boy known as Nunu is defined by such tragedy. One day when he was a young child, Nunu rode on his father's back as they returned from a trapping expedition in the mountains. An unexpected blizzard came upon them, forcing them to seek refuge in a cave. The tempest was the worst in countless years, and it lasted for days. Nunu's father left to find food, but he never returned. The blizzard eventually cleared, and the young child lay dying on the mountainside. Fortunately for Nunu, this was the land of the yetis, who are powerful beasts with whom Nunu's father had secured an arrangement for safe passage. A young yeti boy named Willump found Nunu and brought him home. From then on Nunu was raised by the yetis, whose culture remains a mystery to most Runeterrans. The boy quickly discovered that the seemingly savage creatures were in fact deeply spiritual beings living in harmony with their environment. They are very territorial and unafraid of defending themselves if called upon to do so. The yetis have watched the rest of Valoran, and they can smell the change on the wind. When the League of Legends was formed, the yetis knew they needed a champion. Riding his brother Willump, Nunu became that champion. Those who follow the League know that the boy is mature beyond his years, but, while he appears human, his mind is that of his adoptive kin. If this is him now, imagine what Nunu will be like when he grows up!</description>
+  <quote />
+  <quoteAuthor />
+  <range>125</range>
+  <moveSpeed>340</moveSpeed>
+  <armorBase>16.5</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>213</manaBase>
+  <manaLevel>42</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.32</manaRegenBase>
+  <manaRegenLevel>0.1</manaRegenLevel>
+  <healthRegenBase>1.41</healthRegenBase>
+  <healthRegenLevel>0.16</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>437</healthBase>
+  <healthLevel>108</healthLevel>
+  <attackBase>51.06</attackBase>
+  <attackLevel>3.45</attackLevel>
+  <ratingDefense>6</ratingDefense>
+  <ratingMagic>7</ratingMagic>
+  <ratingDifficulty>3</ratingDifficulty>
+  <ratingAttack>4</ratingAttack>
+  <tips>*Consume allows Nunu to stay in a lane against ranged opponents.*You can choose to interrupt Absolute Zero early for partial damage if an opponent is about to run out of range.*It's often beneficial to delay the casting of Absolute Zero until the initial round of disables are used. Try to hang back before rushing into a team fight.</tips>
+  <opponentTips>*Nunu's Blood Boil allows its target to run away from fights. Make sure to snare and stun any target with Blood Boil on.*Interrupting the charge up on Absolute Zero will lower the amount of damage your team takes.*Using Summoner Flash is a surefire way to escape Absolute Zero.*With only 1 single target ability that can break a spell shield, Banshee's Veil is extremely effective against Nunu.</opponentTips>
+  <date>20121205023807</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Visionary</name>
+      <iconPath>Yeti_FrostNova.png</iconPath>
+      <range>0</range>
+      <description>Nunu can cast a spell for free after 5 attacks.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Consume</name>
+      <cost>60/60/60/60/60 Mana</cost>
+      <cooldown>16/14/12/10/8</cooldown>
+      <iconPath>Yeti_Consume.png</iconPath>
+      <range>0</range>
+      <effect>Nunu commands the yeti to take a bite out of a minion or monster, dealing 500/600/700/800/900 true damage to the target and healing himself for 125/180/235/290/345 (+1).</effect>
+      <description>Nunu commands the yeti to take a bite out of a target minion or monster, dealing heavy damage to it and healing himself.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Blood Boil</name>
+      <cost>50/50/50/50/50 Mana</cost>
+      <cooldown>15/15/15/15/15</cooldown>
+      <iconPath>Yeti_YetiSmash.png</iconPath>
+      <range>700</range>
+      <effect>The heat of Nunu and a target ally's blood rises, increasing Movement Speed by 11/12/13/14/15% and Attack Speed by 25/35/45/55/65% for 15/15/15/15/15 seconds.</effect>
+      <description>Nunu invigorates himself and an allied unit by heating their blood, increasing their Movement and Attack Speeds.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Ice Blast</name>
+      <cost>75/85/95/105/115 Mana</cost>
+      <cooldown>6/6/6/6/6</cooldown>
+      <iconPath>Yeti_IceBlast.png</iconPath>
+      <range>0</range>
+      <effect>Nunu launches a ball of ice at an enemy unit, dealing 85/130/175/225/275 (+1) magic damage and slowing their Movement Speed by 20/30/40/50/60% and Attack Speed by 25/25/25/25/25% for 3/3/3/3/3 seconds.</effect>
+      <description>Nunu launches a ball of ice at an enemy unit, dealing damage and temporarily slowing their Movement and Attack Speeds.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Absolute Zero</name>
+      <cost>150/150/150 Mana</cost>
+      <cooldown>150/120/90</cooldown>
+      <iconPath>Yeti_Shatter.png</iconPath>
+      <range>650</range>
+      <effect>Nunu saps the area of heat, channeling up to 3/3/3 seconds, slowing surrounding enemy units' Movement Speed by 50/50/50% and Attack Speed by 25/25/25%. Enemies caught in the area when the channel ends receive up to 625/875/1125 (+2.5) magic damage, depending on how long the spell was channeled.</effect>
+      <description>Nunu begins to sap the area of heat, slowing all nearby enemies. When the spell ends, he deals massive damage to all enemies caught in the area.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3026</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3010</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3010</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3153</id>
+  <name>Blade of the Ruined King</name>
+  <description> +40 Attack Damage +10% Life Steal UNIQUE Passive: Your attacks deal 4% of the target's current health in physical damage and heal you for half the amount (120 max vs. minions) . UNIQUE Active: Drains target champion, dealing 150 physical damage plus 50% of your attack damage and healing you by the same amount. Additionally, you steal 30% of their movement speed for 2 seconds (60 second cooldown) .</description>
+  <iconPath>3153_Blade_of_the_Ruined_King.png</iconPath>
+  <price>975</price>
+  <flatHPPoolMod>0</flatHPPoolMod>
+  <flatMPPoolMod>0</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>0</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>0</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>40</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>0</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>0</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>1</epicness>
+  <date>20121205023807</date>
+  <recipesInto />
+  <recipesFrom>
+    <Recipe>
+      <recipeItemId>3144</recipeItemId>
+      <buildsToItemId>3153</buildsToItemId>
+    </Recipe>
+  </recipesFrom>
+  <categories>
+    <Category>
+      <name>damage</name>
+    </Category>
+    <Category>
+      <name>life_steal</name>
+    </Category>
+    <Category>
+      <name>active</name>
+    </Category>
+  </categories>
+</Item>

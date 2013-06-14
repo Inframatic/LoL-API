@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>48</id>
+  <name>Trundle</name>
+  <displayName>Trundle</displayName>
+  <title>the Cursed Troll</title>
+  <iconPath>Trundle_Square_0.png</iconPath>
+  <portraitPath>Trundle_0.jpg</portraitPath>
+  <tags>fighter,melee</tags>
+  <description>Trolls have never been well-regarded beings of Valoran. Generally speaking, they are barbaric, cannibalistic, and sneaky. They are creatures relegated to the murky recesses of the world, hidden away from most intelligent beings. Despite their maleficent natures, however, the Ruhgosk never deserved the grisly fate that was visited upon them. Generations ago, a twisted necromancer known as Hakolin the Bonecrafter attempted to enslave the Ruhgosk tribe. These trolls are considerably more genteel than their ill-mannered brethren, although still uncouth by human standards. The Ruhgosk fought tooth and claw against the necromancer, ultimately driving him from their land. As a parting gift, Hakolin afflicted the trolls with a leprous disease, forever cursing the members of the tribe. The leprosy would have rotted their flesh away to nothing were it not for the trolls' natural ability to regenerate. Caught forever in a hideous rotting state, the Ruhgosk endured their curse while desperately in search of a cure. They never found one. A wise Ruhgosk shaman learned that he could magically bind the disease to a single troll, provided that the troll could bear the weight of the entire tribe's curse upon himself. However, there was no such troll...until the birth of Trundle. His ability to regenerate was so profound that it appeared as if he did not carry the disease. As Trundle grew, he came to understand his gift and what it could do for his people. When he came of age, he took the curse from his tribe in a baptism of searing agony. Through the shaman's ritual, Trundle became a horrifying creature whose flesh constantly sloughs off his body, only to be re-grown in an unremitting cycle. He has joined the League of Legends in hopes of eventually finding someone who could dispel the heinous curse completely.</description>
+  <quote>I've learned a thing or two about pain! Let me show you.</quote>
+  <quoteAuthor>Trundle</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>350</moveSpeed>
+  <armorBase>19</armorBase>
+  <armorLevel>2.7</armorLevel>
+  <manaBase>206</manaBase>
+  <manaLevel>45</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.38</manaRegenBase>
+  <manaRegenLevel>0.12</manaRegenLevel>
+  <healthRegenBase>1.6</healthRegenBase>
+  <healthRegenLevel>0.17</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>455</healthBase>
+  <healthLevel>96</healthLevel>
+  <attackBase>54.66</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>6</ratingDefense>
+  <ratingMagic>2</ratingMagic>
+  <ratingDifficulty>5</ratingDifficulty>
+  <ratingAttack>7</ratingAttack>
+  <tips>*Trundle excels at fighting within his Contaminate zone. Try to draw enemies onto it.*Use Agony to soften a powerful enemy tank or to create a target for your team to focus fire.*Rabid Bite is good for lowering the physical damage of enemies; try to focus it on enemy physical damage dealers.</tips>
+  <opponentTips>*Trundle is very powerful at location-based combat. Try to draw him off of his Contaminate zone.*Make sure to get out of his Pillar of Filth as quickly as possible, as it significantly slows you down.</opponentTips>
+  <date>20121205023807</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Decompose</name>
+      <iconPath>Trundle_Decompose.png</iconPath>
+      <range>0</range>
+      <description>Whenever an enemy unit near Trundle dies, he heals for a percent of their maximum health.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Rabid Bite</name>
+      <cost>30/30/30/30/30 Mana</cost>
+      <cooldown>4/4/4/4/4</cooldown>
+      <iconPath>Trundle_Bite.png</iconPath>
+      <range>0</range>
+      <effect>Trundle bites his opponent instead of attacking for his next standard attack, dealing 30/45/60/75/90 (+) physical damage. This attack increases Trundle's Attack Damage by 20/25/30/35/40 for 8 seconds, with his opponent losing half of this amount.</effect>
+      <description>Trundle bites his opponent, dealing damage and sapping some of their attack damage.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Contaminate</name>
+      <cost>60/60/60/60/60 Mana</cost>
+      <cooldown>15/15/15/15/15</cooldown>
+      <iconPath>Trundle_Contaminate.png</iconPath>
+      <range>0</range>
+      <effect>Trundle affects target location with his curse for 8 seconds, gaining 20/25/30/35/40% Movement Speed, 20/30/40/50/60% Attack Speed and 20/25/30/35/40% Crowd Control Reduction while on it.</effect>
+      <description>Trundle infects a target location with his curse, gaining attack speed, movement speed, and crowd control reduction while on it.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Pillar of Filth</name>
+      <cost>60/60/60/60/60 Mana</cost>
+      <cooldown>23/20/17/14/11</cooldown>
+      <iconPath>Trundle_Pillar.png</iconPath>
+      <range>0</range>
+      <effect>Trundle creates a plagued beacon at target location, becoming impassable terrain and slowing all nearby enemy units by 25/30/35/40/45%.</effect>
+      <description>Trundle creates a plagued beacon at target location, becoming impassable terrain and slowing all nearby enemy units.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Agony</name>
+      <cost>75/75/75 Mana</cost>
+      <cooldown>80/70/60</cooldown>
+      <iconPath>Trundle_Agony.png</iconPath>
+      <range>0</range>
+      <effect>Trundle immediately drains a target of 100/175/250 (+0.6) Health and 15/20/25% of their Armor and Magic Resist, and then drains them again for the total of these amounts over the next 6 seconds. Trundle gains these stats for himself while the target is being drained.</effect>
+      <description>Trundle immediately steals his target's health and a percent of their armor and magic resistance. Over the next 6 seconds the amount of health, armor, and magic resistance stolen is doubled.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3044</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3022</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3035</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3026</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3044</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3132</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3156</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

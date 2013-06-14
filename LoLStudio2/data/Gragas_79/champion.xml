@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>79</id>
+  <name>Gragas</name>
+  <displayName>Gragas</displayName>
+  <title>the Rabble Rouser</title>
+  <iconPath>Gragas_Square_0.png</iconPath>
+  <portraitPath>Gragas_0.jpg</portraitPath>
+  <tags>fighter,melee</tags>
+  <description>The foothills of the Great Barrier are home to the hardiest people found anywhere on Valoran. Only those with great fortitude and endurance dwell in what is perhaps the most rugged and unforgiving environment anywhere on the face of Runeterra. It is here that the mighty Gragas keeps permanent residence, living south of Noxus. This behemoth of a man has long eschewed the rigors of civilization for what he calls his ''slice of paradise;'' he has no neighbors to bother him and plenty of space to pursue his life's ambition - brewing. Grogs, ales, meads, and wine - nothing is beyond his skill to brew. What makes Gragas a truly special brewmaster, however, is his proximity to a large and powerful nexus. The magic of this nexus has seeped into his fermented creations, and Gragas has consumed enough of his own poison over the years to slake the thirst of an army. This arcane alcohol has caused Gragas to swell both in height and girth; he looms over the tallest of men and boasts nearly twice their width. To complement his immoderate size, Gragas has developed an ornery temper - one fueled by liquor and raw magic. His infrequent sojourns into Noxus for supplies always unfold the same way: Gragas enters a Noxian tavern, Gragas gets into several fights, Gragas lays out countless citizens, and finally Gragas flees for the foothills with Noxian constables in hot - though reluctant - pursuit. His misadventures have garnered him the attention of several summoners in the League of Legends, and he is now a willing champion in the arenas...doling out hard liquor and harder fists. The Rabble Rouser leaves a path of drunken destruction in his wake, both in the Fields of Justice and off.</description>
+  <quote />
+  <quoteAuthor />
+  <range>125</range>
+  <moveSpeed>340</moveSpeed>
+  <armorBase>16</armorBase>
+  <armorLevel>3.6</armorLevel>
+  <manaBase>221</manaBase>
+  <manaLevel>47</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.29</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>1.45</healthRegenBase>
+  <healthRegenLevel>0.17</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>434</healthBase>
+  <healthLevel>89</healthLevel>
+  <attackBase>55.78</attackBase>
+  <attackLevel>3.375</attackLevel>
+  <ratingDefense>9</ratingDefense>
+  <ratingMagic>6</ratingMagic>
+  <ratingDifficulty>6</ratingDifficulty>
+  <ratingAttack>4</ratingAttack>
+  <tips>*The buff from Drunken Rage is applied at the end of the channel, so try to use it before going into fight.*Try to knock enemies back into your towers with Explosive Cask.*Try to combo Body Slam with Explosive Cask to set up kills for your team.</tips>
+  <opponentTips>*Gragas can knock everybody away with his ultimate. Be careful that you don't get knocked into him or, worse, an enemy tower.*Body Slam is on a very low cooldown, making it difficult to pursue Gragas. Don't overextend yourself chasing him.</opponentTips>
+  <date>20121205023807</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Happy Hour</name>
+      <iconPath>GragasPassiveHeal.png</iconPath>
+      <range>0</range>
+      <description>On ability use, Gragas takes a drink restoring 2% of his max health over 4 seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Barrel Roll</name>
+      <cost>80/90/100/110/120 Mana</cost>
+      <cooldown>11/10/9/8/7</cooldown>
+      <iconPath>GragasBarrelRoll.png</iconPath>
+      <range>1200</range>
+      <effect>Gragas rolls his cask to a location, which can be activated again to explode or will explode on its own after 5 seconds, dealing 85/135/185/235/285 (+0.9) magic damage and applying a 20/25/30/35/40% attack speed debuff for 3 seconds.</effect>
+      <description>Gragas rolls his cask to a location, which can be activated to explode or will explode on its own after 5 seconds. Enemies struck by the blast have their attack speed lowered.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Drunken Rage</name>
+      <cooldown>25/25/25/25/25</cooldown>
+      <iconPath>GragasDrunkenRage.png</iconPath>
+      <range>0</range>
+      <effect> Gragas guzzles down brew from his cask, channeling for 1 second. He gains 30/45/60/75/90 mana while channeling, and becomes empowered after finishing, increasing physical attack damage by 30/40/50/60/70, and reducing damage taken by 10/12/14/16/18% for 20 seconds.</effect>
+      <description>Gragas guzzles down brew from his cask for 1 second, restoring his mana. After finishing, he becomes drunkenly empowered, increasing his damage dealt and reducing damage received.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Body Slam</name>
+      <cost>75/75/75/75/75 Mana</cost>
+      <cooldown>7/7/7/7/7</cooldown>
+      <iconPath>GragasBodySlam.png</iconPath>
+      <range>600</range>
+      <effect>Gragas charges forward, colliding with the first enemy unit he hits, dealing 80/120/160/200/240 (+) (+0.5) magic damage to enemies in the area. Damage is split among targets hit. Units hit by Body Slam are slowed by 35% for 2.5 seconds.</effect>
+      <description>Gragas charges to a location and collides with the first enemy unit he comes across, dealing damage to all nearby enemy units and slowing their movement. Damage is split among units hit.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Explosive Cask</name>
+      <cost>100/125/150 Mana</cost>
+      <cooldown>100/90/80</cooldown>
+      <iconPath>GragasExplosiveCask.png</iconPath>
+      <range>1050</range>
+      <effect>Gragas throws his cask to an area. Upon landing, it deals 200/325/450 (+1) magic damage to all units struck, knocking them back.</effect>
+      <description>Gragas hurls his cask to a location, which explodes on impact, dealing damage and knocking back enemies caught in the blast radius. </description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3100</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3100</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3100</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>
