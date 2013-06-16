@@ -1,5 +1,6 @@
 require 'json'
 require 'open-uri'
+require 'pry'
 
 class HtmlGenerator
   
@@ -10,6 +11,8 @@ class HtmlGenerator
   # end
 
   def index(search_text)
+    
+    champions = retrieve_data
     # Retrieve the list of champions
     # Champions=retrieve_data("/Users/bitmaker02/Desktop/lolapi/champion_list.txt")
 
@@ -19,7 +22,8 @@ class HtmlGenerator
 
     # Loop over the Champions, printing each one
     
-    File.open("champion_list.txt"["champion"], "r") do |champions|
+
+    champions.each do |champion|
       # champions.each do |champion|
       # champion = "champion_list.text"[champion]        # retrieve_data(champion)
       puts "<div class='champion'>"
@@ -35,12 +39,12 @@ class HtmlGenerator
       puts "  </ul>"
       puts "</div>"
       # end
-    end  
     puts "<footer>"
     # puts "  For more info see the <a href='http://lcboapi.com/docs/champions'>champions API docs</a>."
     puts "</footer>"
 
     print_footer
+    end
   end
 
   def show(champion_name)
@@ -90,15 +94,26 @@ class HtmlGenerator
     puts "</html>"
   end
 
-  def retrieve_data(file_location)
-    # Retrieve JSON-formatted text from lcboapi.com
-    raw_response = open(file_location).read
+  def retrieve_data
+    read_file = File.open("champion_list.json", "r") do |f|
 
-    # Parse JSON-formatted text into a Ruby Hash
-    parsed_response = JSON.parse(raw_response)
+      binding.pry
+      parsed_file = JSON.load(f)
+    end
+    binding.pry
 
-    # Return just the actual result data from the response, ignoring metadata
-    result = parsed_response["result"]
+    # parsed_file = JSON.parse(eval(read_file))
+    champion = parsed_file[champion]
+
+
+    # # Retrieve JSON-formatted text from lcboapi.com
+    # raw_response = open(file_location).read
+
+    # # Parse JSON-formatted text into a Ruby Hash
+    # parsed_response = JSON.parse(raw_response)
+
+    # # Return just the actual result data from the response, ignoring metadata
+    # result = parsed_response["result"]
   end
 
   # Convert a string of a price in cents to a float.
