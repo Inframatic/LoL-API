@@ -95,10 +95,8 @@ class HtmlGenerator
   end
 
   def retrieve_data
-    read_file = File.open("champion_list.json", "r") do |f|
-
-      binding.pry
-      parsed_file = JSON.load(f)
+    read_file = File.open("champion_list.txt", "r") do |f|
+      JSON.load(f)
     end
     binding.pry
 

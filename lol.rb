@@ -1,8 +1,8 @@
 require 'active_support/core_ext'
 require 'json'
 
-File.open("final_list.txt", "w") do |file_name|
-	File.open("champions.txt", "r").each do |folder_name|
+File.open("champion_list.txt", "w") do |file_name|
+	 File.open("champions.txt", "r").each do |folder_name|
 		folder_name = folder_name.strip
 		xml = File.open("LoLStudio2/data/#{folder_name}/champion.xml").read
 		json = Hash.from_xml(xml).to_json
