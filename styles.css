@@ -1,0 +1,33 @@
+body {
+	background: rgb(7, 9, 22) url(http://lolwp.com/wp-content/uploads/2013/05/Aatrox-Classic.jpg) 50% 30px no-repeat fixed;
+}
+
+header {
+display: block;
+z-index: 90;
+position: relative;
+width: 100%;
+min-width: 1016px;
+height: 239px;
+background:  url(http://www.eudolan.com/sites/all/images/lol-dec12-header.jpg) 50% 0px no-repeat;
+border:1.8px solid #FFD700;
+border-style: groove;
+background-color: #000013;
+margin-bottom: 10px;
+opacity: .89;
+}
+
+.containter {
+opacity: .89;
+background: #0e1924 50% 0px no-repeat;
+height: 100%;
+position: absolute;
+width:1010px;
+z-index: -1;
+margin: 0 auto;
+float:left;
+}
+
+.content{
+
+}
