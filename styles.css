@@ -10,24 +10,53 @@ width: 100%;
 min-width: 1016px;
 height: 239px;
 background:  url(http://www.eudolan.com/sites/all/images/lol-dec12-header.jpg) 50% 0px no-repeat;
-border:1.8px solid #FFD700;
+border: outset #FFD700 1.5px;
 border-style: groove;
 background-color: #000013;
 margin-bottom: 10px;
-opacity: .89;
+opacity: .69;
 }
 
 .containter {
-opacity: .89;
+/*opacity: .89;
 background: #0e1924 50% 0px no-repeat;
 height: 100%;
 position: absolute;
 width:1010px;
 z-index: -1;
 margin: 0 auto;
-float:left;
+float:left;*/
+	width:600px;
+	margin-left:450px;
+	text-align:left;
+	padding:15px;
+	border: outset #FFD700 1.5px;
+	background-color:#000013;
+	opacity: .49;
+	display:inline-block;
+	float: left;
 }
 
 .content{
+	width:480px;
+	display:inline-block;
+	float:left;
+	text-align:left;
+	padding:0px auto;
+	border: outset #FFD700 1.5px;
+	background-color:#000000;
+	opacity: .69;
+	margin-left:20px;
+}
 
+h1 {
+	font-family :Impact, fantasy;
+	color:#FFD048;
+}
+
+h2 {
+		display:block;
+		font-family :helvetica;
+	  color:#CF000B;
+	  text-align:center;
 }
